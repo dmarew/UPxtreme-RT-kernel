@@ -10,6 +10,9 @@ Only tested on UP Xtreme i7C1-8565U
 
 ``sudo ./install_uboard_kernel.sh``  
 
+### Reboot machine
+
+``sudo reboot``
 ## Building and Generating binaries
 
 ``sudo ./build_rt_kernel.sh``  
@@ -18,11 +21,12 @@ Only tested on UP Xtreme i7C1-8565U
 
 ``sudo ./install_rt_kernel.sh``  
 
-## Reboot machine
+### Reboot machine
 
 ``sudo reboot``
 
 ## Check kernel version to be sure.
+
 ``uname -a``
 
 ## Latency Test
