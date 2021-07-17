@@ -4,10 +4,13 @@ Only tested on UP Xtreme i7C1-8565U
 
 ### Disclaimer: use at your own risk!
 
-
-## Building and Generating binaries
+## Installing Upboard Kernel
 
 ``chmod +x *.sh``
+
+``sudo ./install_uboard_kernel.sh``  
+
+## Building and Generating binaries
 
 ``sudo ./build_rt_kernel.sh``  
 
