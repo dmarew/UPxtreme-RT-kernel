@@ -4,15 +4,21 @@ Only tested on UP Xtreme i7C1-8565U
 
 ### Disclaimer: use at your own risk!
 
-## Installing Upboard Kernel
-
+## Clone repository
+``make ~/kernel``
+``cd kernel``
+``git clone https://github.com/dmarew/UPxtreme-RT-kernel.git``
+``cd UPxtreme-RT-kernel``
 ``chmod +x *.sh``
+
+## Installing Upboard Kernel
 
 ``sudo ./install_uboard_kernel.sh``  
 
 ### Reboot machine
 
 ``sudo reboot``
+
 ## Building and Generating binaries
 
 ``sudo ./build_rt_kernel.sh``  
